@@ -7,7 +7,7 @@ Inspired by [HAND-REHA: dynamic hand gesture recognition for game-based wrist re
 The project is composed of two pieces, the trainer and the game. 
 
 ## Trainer
-The trainer is a C# console app that uses 5 different folders (UP, DOWN, LEFT, RIGHT, UNKNOWN) of various images to train a classifiction model.
+The trainer is a C# console app that uses 5 different folders (UP, DOWN, LEFT, RIGHT, UNKNOWN) of various images to train a classification model.
 
 ![Folders w/ training images](https://raw.githubusercontent.com/kevin-r-jordan/snake-ml-vision/main/docs/training-images.png "Folders with training images")
 

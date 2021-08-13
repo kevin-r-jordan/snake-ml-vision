@@ -7,7 +7,15 @@ Inspired by [HAND-REHA: dynamic hand gesture recognition for game-based wrist re
 The project is composed of two pieces, the trainer and the game. 
 
 ## Trainer
-The trainer is a C# console app that uses 5 different folders (UP, DOWN, LEFT, RIGHT, UNKNOWN) of various images to train a classifaction model. The output of the trainer is a model.zip file for use in the Unity game.
+The trainer is a C# console app that uses 5 different folders (UP, DOWN, LEFT, RIGHT, UNKNOWN) of various images to train a classifiction model.
+
+![Folders w/ training images](https://raw.githubusercontent.com/kevin-r-jordan/snake-ml-vision/main/docs/training-images.png "Folders with training images")
+
+The image classifier uses [ResNet v2 101](https://tfhub.dev/google/imagenet/resnet_v2_101/classification/4) with 50 epochs. As this was a proof of concept project, no attempt was made to improve the effectiveness of the model.
+
+![Console windows after trainer execution](https://raw.githubusercontent.com/kevin-r-jordan/snake-ml-vision/main/docs/trainer-output.png "Console windows after trainer execution")
+
+The output of the trainer is a model.zip file for use in the Unity game.
 
 ## Snake Game
 The Snake game was created using the [Unity Snake Tutorial](https://github.com/zigurous/unity-snake-tutorial) provided by Adam Graham.

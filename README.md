@@ -20,6 +20,8 @@ The output of the trainer is a model.zip file for use in the Unity game.
 ## Snake Game
 The Snake game was created using the [Unity Snake Tutorial](https://github.com/zigurous/unity-snake-tutorial) provided by Adam Graham.
 
+![Snake game screenshot](https://raw.githubusercontent.com/kevin-r-jordan/snake-ml-vision/main/docs/game-screenshot.png "Snake game screenshot")
+
 When the game is loaded, the model.zip is loaded and a singleton of the prediction engine is available for the other game objects.
 
 A webcam capture script continuously generates png images from the user's webcam. An option to save these images to local file system is also available for future training data. As each image is generated, the prediction engine is called with the png byte data.

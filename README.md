@@ -2,7 +2,7 @@
 Using ML.NET with Unity for gesture recognition to play the classic game, Snake.
 
 ## Concept
-Inspired by [HAND-REHA: dynamic hand gesture recognition for game-based wrist rehabilitation](https://dl.acm.org/doi/10.1145/3389189.3392608), this version of the classic game, Snake, uses the C# ML.NET library to train vision-based models for different directions (UP, DOWN, LEFT, RIGHT). This model is then used in Unity with a webcam to translate hand positions into controls for the snake's movements.
+This version of the classic game, Snake, uses the C# ML.NET library to train vision-based models for different directions (UP, DOWN, LEFT, RIGHT). This model is then used in Unity with a webcam to translate hand positions into controls for the snake's movements.
 
 The project is composed of two pieces, the trainer and the game. 
 
